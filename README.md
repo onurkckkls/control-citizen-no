@@ -20,8 +20,13 @@
     1. `CitizenNo.control("10000000146")`
     2. `citizenNo = CitizenNo("10000000146")` then you can take boolean in `citizenNo.result` variable
     3. `CitizenNo.multiControl(list)` for list return, or you can use `CitizenNo.multiControl(list, 'dict')` code for dictionary return
-        
+
+
+# Requirement
+- python 3.5+
+
 
 # Test Knowledge
 **TR:** Test için pytest ve test_citizenNo.py kullanılabilir.
+
 **EN:** You can use pytest and test_citizenNo.py for testing code
