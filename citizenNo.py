@@ -1,4 +1,13 @@
 class CitizenNo:
+    """Kimlik Numarası Kontrolü
+
+    Raises:
+        ValueError: Kimlik numarasında sayı dışında değer varsa ve ERRORS sınıf değişkeni True ise
+        ValueError: Kimlik numarası 11 rakamdan oluşmuyorsa ve ERRORS sınıf değişkeni True ise
+
+    Returns:
+        None: Hiçbir şey döndürmez, cls.result değişkeninden True ya da False değeri alınabilir. 
+    """
     ERRORS = False
 
     def __init__(self, citizenNo: str):
