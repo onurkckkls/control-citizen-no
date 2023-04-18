@@ -42,6 +42,6 @@
 **EN:** Added a class to find incorrectly entered citizen numbers, potential correct ones.
 
 **Usage:**
-    - Import the class `from potantial import Potantial`
-    - `Potantial("1000000014").potantials` the result comes as a list
+- Import the class `from potantial import Potantial`
+- `Potantial("1000000014").potantials` the result comes as a list
     
