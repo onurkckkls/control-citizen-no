@@ -30,3 +30,16 @@
 **TR:** Test için pytest ve test_citizenNo.py kullanılabilir.
 
 **EN:** You can use pytest and test_citizenNo.py for testing code
+
+
+# 18.04.2023 Changes
+**TR:** Yanlış girilen vatandaş numaralarını, potansiyel olarak doğru olanları bulmak için bir sınıf eklendi.
+**Kullanımı:**
+    1. Sınıfın çağırılması `from potantial import Potantial`
+    2. `Potantial("1000000014").potantials` sonuç liste olarak gelir
+
+**EN:** Added a class to find incorrectly entered citizen numbers, potential correct ones.
+**Usage:**
+    1. Import the class `from potantial import Potantial`
+    2. `Potantial("1000000014").potantials` the result comes as a list
+    

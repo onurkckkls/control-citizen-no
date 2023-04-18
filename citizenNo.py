@@ -15,7 +15,7 @@ class CitizenNo:
 
         if self.isNotBeginZero() and self.isLengthTrue():
             try:
-                # Rakaam çevrilip liste oluşturulmaı
+                # Rakam çevrilip liste oluşturulmaı
                 self.citizenNo = [int(c) for c in self.citizenNo]
             except ValueError:
                 if CitizenNo.ERRORS:
@@ -42,7 +42,7 @@ class CitizenNo:
         """Sıfır ile başlamadığının kontrolü
 
         Returns:
-            _type_: Sıfır ile başlamıyorsa True
+            bool: Sıfır ile başlamıyorsa True
         """
         return not self.citizenNo[0] == "0"
 
