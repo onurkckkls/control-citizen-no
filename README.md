@@ -43,6 +43,4 @@
 
 **Usage:**
 - Import the class `from potantial import Potantial`
-- `Potantial("1000000014").potantials` the result comes as a list
-    
-test
+- `Potantial("1000000014").potantials` the result comes as a list 
