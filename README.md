@@ -36,8 +36,8 @@
 **TR:** Yanlış girilen vatandaş numaralarını, potansiyel olarak doğru olanları bulmak için bir sınıf eklendi.
 
 **Kullanımı:**
-    - Sınıfın çağırılması `from potantial import Potantial`
-    - `Potantial("1000000014").potantials` sonuç liste olarak gelir
+- Sınıfın çağırılması `from potantial import Potantial`
+- `Potantial("1000000014").potantials` sonuç liste olarak gelir
 
 **EN:** Added a class to find incorrectly entered citizen numbers, potential correct ones.
 
